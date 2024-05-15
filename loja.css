@@ -1,0 +1,19 @@
+#loja {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#loja {
+    background-color: #FACFCE;
+    border-radius: 40px;
+    margin: 40px;
+    object-fit: cover; 
+    padding: 50px;
+}
+
+.loja h1 {
+    font-size: 50px;
+    color: #023535;
+    padding: 200px;
+}

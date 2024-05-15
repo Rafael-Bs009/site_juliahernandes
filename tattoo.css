@@ -1,0 +1,82 @@
+#tattoo,
+#disponiveis {
+    font-family: "Platypi", serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#disponiveis {
+    background-color: #facfce73;
+    border-radius: 40px;
+}
+section .disponiveis {
+    padding: 50px;
+}
+
+#tattoo .container h2,
+#disponiveis .container h3 {
+    margin: 25px 0;
+    color: #023535;
+    padding-top: 25px;
+    font-weight: lighter;
+}
+
+.tattoo,
+.disponiveis {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px; 
+}
+
+.tattoo li,
+.disponiveis li {
+    margin: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    width: 300px; 
+    height: 450px; 
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tattoo li:hover,
+.disponiveis li:hover {
+    transform: scale(1.05);
+}
+
+.tattoo img,
+.disponiveis img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.button-orcamento {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-orcamento a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    display: block;
+    border-radius: 8px;
+}
+
+section .button-orcamento a{
+    background-color: #023535;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    bottom: 35px;
+}

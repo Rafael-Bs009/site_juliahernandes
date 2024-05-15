@@ -1,0 +1,96 @@
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content:center;
+}
+
+.contact-methods h4 {
+    font-weight: normal;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
+    height: 180px;
+}
+
+input:focus, textarea:focus {
+    outline-color: #023535;
+}
+
+#contact h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-methods form button {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+.contact-methods input,
+.contact-methods textarea {
+    border-radius: 10px;
+    border-style: none;
+
+}
+
+.contact-social {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}   
+
+.contact-social ul {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-left: 360px;
+}
+
+.contact-social li {
+    margin: 20px;
+    
+}
+
+.contact-social a {
+    display: inline-block;
+}
+
+.contact-social img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 50px; 
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.contact-title {
+    top: 60px;
+    color: #023535;
+}
+
+#contact {
+    background-color: #FACFCE;
+    border-radius: 10px; 
+}
